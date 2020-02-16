@@ -3,4 +3,4 @@
 	1. cd node-api
 	2. npm install
 	3. npm run dev
-  This will get the backend server running at port 8080.
+3. On completing Step 2, the backend server will be online at port 8080.
