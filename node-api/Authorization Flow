@@ -1,0 +1,19 @@
+First Step 
+    A request is sent to update profile 
+    The URL will look like "domain/profile/userid21900213"
+
+    When there is userid in the incoming request
+        based on that user id
+        our backend will make a query to DB and load that user info
+        then we will add that info to the request object
+        like - req.profile = userInformation
+
+Second Step 
+    add middleware requireSignin() so that we know that the user is authenticated
+
+Third Step 
+    create hasAuthorization()
+    to make sure that req object has 
+        req.profile &&
+        req.auth    &&
+        req.profile._id === req.auth._id

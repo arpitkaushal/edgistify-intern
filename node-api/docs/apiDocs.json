@@ -1,0 +1,13 @@
+{
+    "/": "get all routes",
+    "/signup" : "signup",
+    "/signin" : "signin",
+    "/signout" : "signout",
+    "/feed" : "view all posts",
+    "/author": "know the developer",
+    "/post/new/:userId" : "to make a post",
+    "/post/:postId" : "update/delete post",
+    "/post/by/:userId": "posts by a particular user",
+    "/users": "list of all users",
+    "/user/:userId": "get/update/delete user"
+}

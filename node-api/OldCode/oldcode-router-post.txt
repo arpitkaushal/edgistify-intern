@@ -1,0 +1,19 @@
+// const express = require("express");
+// const postController = require("../controllers/post");
+// const {createPost, getPostA, getPostB, getPostC} = require("../controllers/post");
+
+// const router = express.Router();
+// router.get("/", postController.getPostA);
+// router.get("/arpit",  postController.getPostB);
+// router.get("/getpost",  postController.getPostC);
+
+// router.post("/makepost", postController.createPost);
+// router.post("/makepost", createPost);
+
+
+
+// module.exports = router;
+
+// exports.getPost = (req,res) =>  res.send(`
+// <br><br><center><h4>You can do a lot of stuff, you know.
+// `);
